@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/output.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="border border-pink-400 p-2 flex flex-wrap">
+        <div class="w-full md:w-1/2 p-1 bg-stone-300 border">Columna 1</div>
+        <div class="w-full md:w-1/2 p-1 bg-stone-300 border">Columna 2</div>
+    </div>
+
+    <div class="border border-pink-400 p-2 flex flex-wrap">
+        <div class="bg-stone-300 border p-1 w-full md:w-1/3">Columan 1</div>
+        <div class="bg-stone-300 border p-1 w-full md:w-1/3">Columna 2</div>
+        <div class="bg-stone-300 border p-1 w-full md:w-1/3">Columna 3</div>
+    </div>
+
+    <div class="border border-pink-400 p-2 flex flex-wrap">
+        <div class="bg-stone-300 border p-1 md:w-1/5 w-full ">Columna 1</div>
+        <div class="bg-stone-300 border p-1 md:w-1/5 w-full">Columna 2</div>
+        <div class="bg-stone-300 border p-1 md:w-1/5 w-full">Columna 3</div>    
+        <div class="bg-stone-300 border p-1 md:w-1/5 w-full">Columna 4</div>
+        <div class="bg-stone-300 border p-1 md:w-1/5 w-full">Columna 5</div>
+    </div>
+
+    <div class="mx-auto w-11/12 p-3 md:w-[750px] bg-indigo-50 shadow-md">
+        <form action="">
+            <h1 class="mb-2 font-bold text-2xl md:text-3xl text-center md:text-left">Haznos saber tu opinión</h1>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 p-2">
+                    <label class="">Nombre: </label>
+                    <input type="text" class="h-10 w-full border-gray-300 rounded-md">
+                </div>
+                <div class="w-full md:w-1/2 p-2">
+                    <label class="">Apellido:</label>
+                    <input type="text" class="h-10 w-full border-gray-300 rounded-md ">
+                </div>
+            </div>
+            <div class="flex flex-wrap p-2 items-center">
+                <div class="w-1/2 text-right pr-2 ">
+                  <label>Alumno</label>
+                  <input type="radio" name="usuario">
+                </div>
+                <div class="w-1/2 pl-2">
+                  <label>Profesor</label>
+                  <input type="radio" name="usuario">
+                </div>
+            </div>
+            <div class="flex flex-wrap p-2">
+                <label>Comentario</label>
+                <textarea class="w-full h-28 border  border-gray-300 rounded-md"></textarea>
+            </div>
+            <div class="flex flex-wrap p-2 mt-2  justify-center  md:justify-end">
+                <button class="bg-green-700 hover:bg-green-800 text-white py-1 px-2  mr-4  rounded-md text-sm">Aceptar</button>
+                <button class="bg-gray-700 hover:bg-gray-800 text-white py-1 px-2  mr-4  rounded-md text-sm">Cancelar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
